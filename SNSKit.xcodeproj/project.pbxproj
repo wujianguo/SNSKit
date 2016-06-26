@@ -8,11 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		812694AD1D1ECDE500341F5D /* SNSPlatformManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694AC1D1ECDE500341F5D /* SNSPlatformManager.swift */; };
+		812694AF1D1F6FD600341F5D /* SNSPlatformBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694AE1D1F6FD600341F5D /* SNSPlatformBase.swift */; };
+		812694B11D1F701200341F5D /* SNSPlatformQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694B01D1F701200341F5D /* SNSPlatformQQ.swift */; };
+		812694B31D1F701F00341F5D /* SNSPlatformWechat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694B21D1F701F00341F5D /* SNSPlatformWechat.swift */; };
+		812694B51D1F702A00341F5D /* SNSPlatformWeibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694B41D1F702A00341F5D /* SNSPlatformWeibo.swift */; };
+		812694B71D1F703F00341F5D /* SNSPlatformWechatMoments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694B61D1F703F00341F5D /* SNSPlatformWechatMoments.swift */; };
+		812694B91D1F705500341F5D /* SNSPlatformWechatSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694B81D1F705500341F5D /* SNSPlatformWechatSession.swift */; };
+		812694BD1D1F8E4200341F5D /* SNSPlatformAlipay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812694BC1D1F8E4200341F5D /* SNSPlatformAlipay.swift */; };
 		8199FE0B1D1ECC4D008F2568 /* SNSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8199FE0A1D1ECC4D008F2568 /* SNSKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		812694AC1D1ECDE500341F5D /* SNSPlatformManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformManager.swift; sourceTree = "<group>"; };
+		812694AE1D1F6FD600341F5D /* SNSPlatformBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformBase.swift; sourceTree = "<group>"; };
+		812694B01D1F701200341F5D /* SNSPlatformQQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformQQ.swift; sourceTree = "<group>"; };
+		812694B21D1F701F00341F5D /* SNSPlatformWechat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformWechat.swift; sourceTree = "<group>"; };
+		812694B41D1F702A00341F5D /* SNSPlatformWeibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformWeibo.swift; sourceTree = "<group>"; };
+		812694B61D1F703F00341F5D /* SNSPlatformWechatMoments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformWechatMoments.swift; sourceTree = "<group>"; };
+		812694B81D1F705500341F5D /* SNSPlatformWechatSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformWechatSession.swift; sourceTree = "<group>"; };
+		812694BC1D1F8E4200341F5D /* SNSPlatformAlipay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSPlatformAlipay.swift; sourceTree = "<group>"; };
 		8199FE071D1ECC4D008F2568 /* SNSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8199FE0A1D1ECC4D008F2568 /* SNSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNSKit.h; sourceTree = "<group>"; };
 		8199FE0C1D1ECC4D008F2568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +73,13 @@
 			isa = PBXGroup;
 			children = (
 				812694AC1D1ECDE500341F5D /* SNSPlatformManager.swift */,
+				812694AE1D1F6FD600341F5D /* SNSPlatformBase.swift */,
+				812694B01D1F701200341F5D /* SNSPlatformQQ.swift */,
+				812694B21D1F701F00341F5D /* SNSPlatformWechat.swift */,
+				812694B41D1F702A00341F5D /* SNSPlatformWeibo.swift */,
+				812694B61D1F703F00341F5D /* SNSPlatformWechatMoments.swift */,
+				812694B81D1F705500341F5D /* SNSPlatformWechatSession.swift */,
+				812694BC1D1F8E4200341F5D /* SNSPlatformAlipay.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -141,7 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812694B51D1F702A00341F5D /* SNSPlatformWeibo.swift in Sources */,
+				812694B11D1F701200341F5D /* SNSPlatformQQ.swift in Sources */,
+				812694AF1D1F6FD600341F5D /* SNSPlatformBase.swift in Sources */,
+				812694BD1D1F8E4200341F5D /* SNSPlatformAlipay.swift in Sources */,
 				812694AD1D1ECDE500341F5D /* SNSPlatformManager.swift in Sources */,
+				812694B91D1F705500341F5D /* SNSPlatformWechatSession.swift in Sources */,
+				812694B31D1F701F00341F5D /* SNSPlatformWechat.swift in Sources */,
+				812694B71D1F703F00341F5D /* SNSPlatformWechatMoments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
